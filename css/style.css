@@ -1,3 +1,18 @@
 body {
-  background-color:gold;
+
 }
+
+.pegs{
+  overflow: hidden;
+  width: 100%;
+  background: green;
+}
+
+.pegs #peg_1, .pegs #peg_2, .pegs #peg_3 {
+  height: 300px;
+  width: 300px;
+  background: red;
+  margin: 10px;
+  float: left;
+}
+
