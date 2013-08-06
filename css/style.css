@@ -1,18 +1,31 @@
 body {
+  width: 800px;
+  margin: 0 auto;
 
 }
 
 .pegs{
   overflow: hidden;
-  width: 100%;
+  margin: 0 auto;
+  width: 660px;
   background: green;
+  text-align: center;
 }
 
-.pegs #peg_1, .pegs #peg_2, .pegs #peg_3 {
-  height: 300px;
-  width: 300px;
+.pegs #peg_0, 
+.pegs #peg_1, 
+.pegs #peg_2 {
+  height: 200px;
+  width: 200px;
   background: red;
   margin: 10px;
   float: left;
+  font-size: 30px;
+}
+
+#selected {
+  font-size: 30px;
+  color: green;
+  text-align: center;
 }
 
